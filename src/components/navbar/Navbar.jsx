@@ -1,27 +1,29 @@
 import React from 'react';
-import CartWidget from './Cartwidget';
+import CartWidget from './Cartwidget'; 
 import { Link, NavLink } from 'react-router-dom';
-import ItemListContainer from '../itemListContainer/ItemListContainer'; // Importa el componente ItemListContainer
+import ItemListContainer from '../itemListContainer/ItemListContainer';
 
 const Navbar = () => {
   const links = [
     {
-      label: "Inicio",
-      href: "/",
+      label: 'Inicio',
+      href: '/',
     },
     {
-      label: "Departamentos",
-      href: "/producto/departamentos",
+      label: 'Departamentos',
+      href: '/productos/departamento',
     },
     {
-      label: "Casas",
-      href: "/producto/casas",
+      label: 'Casas',
+      href: '/productos/casa',
     },
     {
-      label: "Oportunidades",
-      href: "/producto/oportunidad",
+      label: 'Oportunidades',
+      href: '/productos/oportunidad',
     },
   ];
+
+  console.log('Renderizando Navbar');
 
   return (
     <div>
@@ -47,7 +49,6 @@ const Navbar = () => {
         </nav>
       </header>
 
-      {/* Incluye el componente ItemListContainer */}
       <ItemListContainer />
     </div>
   );
