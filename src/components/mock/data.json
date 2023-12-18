@@ -1,0 +1,97 @@
+[{
+    "id": 1,
+    "name": "casa-t1",
+    "price": 15000,
+    "img": "http://dummyimage.com/250x250.png/cc0000/ffffff",
+    "category": "casa-ventas",
+    "stock": 1,
+    "description": "Ubicado en el corazón de la ciudad, esta impresionante casa de una habitación ofrece una experiencia de vida contemporánea y cómoda. Desde el momento en que entras, te envuelve una sensación de elegancia y diseño vanguardista."
+  }, {
+    "id": 2,
+    "name": "casa-t2",
+    "price": 22000,
+    "img": "http://dummyimage.com/250x250.png/ff4444/ffffff",
+    "category": "casa-alquiler",
+    "stock": 1,
+    "description": "Situado estratégicamente en el centro urbano, esta excepcional casa de dos habitaciones brinda una experiencia de vida contemporánea y confortable. Desde el instante en que cruzas la puerta, te sumerges en una atmósfera de refinamiento y diseño vanguardista."
+  }, {
+    "id": 3,
+    "name": "casat-3",
+    "price": 25000,
+    "img": "http://dummyimage.com/250x250.png/dddddd/000000",
+    "category": "casa-alquiler",
+    "stock": 1,
+    "description": "Con una ubicación privilegiada en el corazón de la ciudad, esta magnífica casa de tres habitaciones ofrece una experiencia de vida contemporánea y confortable. Desde el primer paso en su interior, te envuelve una sensación de elegancia y diseño vanguardista, creando un hogar que refleja la modernidad y el buen gusto."
+  }, {
+    "id": 4,
+    "name": "casa-t4",
+    "price": 30000,
+    "img": "http://dummyimage.com/250x250.png/dddddd/000000",
+    "category": "casa-ventas",
+    "stock": 1,
+    "description": "Situado estratégicamente en el vibrante centro urbano, esta cautivadora casa de cuatro habitaciones, completamente remodelado, redefine la experiencia de vida contemporánea y confort. Desde el umbral, te sumerges en una atmósfera única de sofisticación y diseño vanguardista, creando un hogar que fusiona a la perfección la modernidad con el encanto renovado."
+  }, {
+    "id": 5,
+    "name": "casa-t5",
+    "price": 35000,
+    "img": "http://dummyimage.com/250x250.png/cc0000/ffffff",
+    "category": "casa-alquiler",
+    "stock": 1,
+    "description": "En una ubicación privilegiada, esta casa de cinco habitaciones, completamente nueva, redefine la experiencia de vida contemporánea y elegante. Desde el primer momento, te envuelve una sensación de frescura y modernidad. Este hogar a estrenar combina perfectamente el diseño vanguardista con amplios espacios, ofreciendo una residencia única que refleja la calidad y el confort en cada rincón."
+  }, {
+    "id": 6,
+    "name": "depto-t1",
+    "price": 10000,
+    "img": "http://dummyimage.com/250x250.png/dddddd/000000",
+    "category":"departemento",
+    "stock": 1,
+    "description": "Ubicado a pasos del mar, este encantador departamento de una habitación ofrece una experiencia de vida costera y relajada. Desde el momento en que entras, la brisa marina y las vistas panorámicas crean una atmósfera única de tranquilidad y estilo contemporáneo. Este acogedor espacio junto al mar se convierte en un refugio ideal para disfrutar de la serenidad y la belleza del entorno marino."
+  }, {
+    "id": 7,
+    "name": "depto-t2",
+    "price": 13000,
+    "img": "http://dummyimage.com/250x250.png/ff4444/ffffff",
+    "category": "departemento",
+    "stock": 1,
+    "description":"Situado a pasos del mar, este hermoso departamento de dos habitaciones ofrece una experiencia de vida costera y relajada. Desde el momento en que entras, la brisa marina y las vistas panorámicas crean una atmósfera única de tranquilidad y estilo contemporáneo. Este acogedor espacio junto al mar se convierte en un refugio ideal para disfrutar de la serenidad y la belleza del entorno marino, proporcionando un hogar cómodo y lleno de encanto."
+  }, {
+    "id": 8,
+    "name": "depto-t3",
+    "price": 17500,
+    "img": "http://dummyimage.com/250x250.png/dddddd/000000",
+    "category": "departemento",
+    "stock": 1,
+    "description": "Ubicado en el corazón del centro histórico, este encantador departamento de tres habitaciones combina el encanto histórico con la comodidad moderna. Desde el momento en que entras, te sumerges en la rica historia que rodea este espacio, mientras disfrutas de la elegancia contemporánea. Este hogar en el centro histórico ofrece una experiencia única, donde la tradición se encuentra con la modernidad para crear un ambiente acogedor y lleno de carácter."
+  }, {
+    "id": 9,
+    "name": "depto-t4",
+    "price": 20000,
+    "img": "http://dummyimage.com/250x250.png/5fa2dd/ffffff",
+    "category":"departemento",
+    "stock": 1,
+    "description":"Situado a solo pasos del metro, este espacioso departamento de cuatro habitaciones ofrece una combinación perfecta de comodidad y accesibilidad. Desde el momento en que entras, te envuelve una sensación de amplitud y modernidad. Este hogar cercano al metro se convierte en un lugar ideal para aquellos que buscan la conveniencia del transporte público sin comprometer la comodidad y la amplitud que ofrece un espacio de cuatro habitaciones. Disfruta de un estilo de vida práctico y cómodo en esta residencia única."
+  }, {
+    "id": 10,
+    "name": "depto-t5",
+    "price": 25000,
+    "img": "http://dummyimage.com/250x250.png/dddddd/000000",
+    "category": "departemento",
+    "stock": 1,
+    "description": "Situado en la ribera, este exclusivo y amplio hogar de cinco habitaciones ofrece una experiencia de vida serena y elegante junto al río. Desde el momento en que entras, te sumerges en una atmósfera de tranquilidad, con vistas panorámicas que añaden un toque de naturaleza a tu día a día. Este hogar en la ribera combina la comodidad de un espacio amplio con la belleza serena de su entorno, proporcionando un refugio único que fusiona el lujo con la conexión con la naturaleza."
+    }, {
+      "id": 11,
+      "name": "oportunidad-1",
+      "price": 70000,
+      "img": "http://dummyimage.com/250x250.png/5fa2dd/ffffff",
+      "category":"oportunidad",
+      "stock": 1,
+      "description":"Descubre una extraordinaria oportunidad de inversión en este futuro desarrollo inmobiliario, estratégicamente ubicado a pocos pasos de las futuras estaciones de metro. Este próximo proyecto ofrece la combinación perfecta entre modernidad y conveniencia. "
+    }, {
+      "id": 12,
+      "name": "oportunidad-2",
+      "price": 95000,
+      "img": "http://dummyimage.com/250x250.png/dddddd/000000",
+      "category": "oportunidad",
+      "stock": 1,
+      "description": "Este futuro hogar no solo se beneficia de su accesibilidad única gracias a la proximidad al metro, sino que también promete amplitud y modernidad en cada rincón. La visión de este proyecto es ofrecer a los inversores y futuros residentes un espacio que combine la eficiencia del transporte público con el confort de un hogar de cuatro habitaciones. "
+      }]
