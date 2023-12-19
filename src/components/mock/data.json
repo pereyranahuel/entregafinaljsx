@@ -43,7 +43,7 @@
     "name": "depto-t1",
     "price": 10000,
     "img": "http://dummyimage.com/250x250.png/dddddd/000000",
-    "category":"departemento",
+    "category":"departamento",
     "stock": 1,
     "description": "Ubicado a pasos del mar, este encantador departamento de una habitación ofrece una experiencia de vida costera y relajada. Desde el momento en que entras, la brisa marina y las vistas panorámicas crean una atmósfera única de tranquilidad y estilo contemporáneo. Este acogedor espacio junto al mar se convierte en un refugio ideal para disfrutar de la serenidad y la belleza del entorno marino."
   }, {
@@ -51,7 +51,7 @@
     "name": "depto-t2",
     "price": 13000,
     "img": "http://dummyimage.com/250x250.png/ff4444/ffffff",
-    "category": "departemento",
+    "category": "departamento",
     "stock": 1,
     "description":"Situado a pasos del mar, este hermoso departamento de dos habitaciones ofrece una experiencia de vida costera y relajada. Desde el momento en que entras, la brisa marina y las vistas panorámicas crean una atmósfera única de tranquilidad y estilo contemporáneo. Este acogedor espacio junto al mar se convierte en un refugio ideal para disfrutar de la serenidad y la belleza del entorno marino, proporcionando un hogar cómodo y lleno de encanto."
   }, {
@@ -59,7 +59,7 @@
     "name": "depto-t3",
     "price": 17500,
     "img": "http://dummyimage.com/250x250.png/dddddd/000000",
-    "category": "departemento",
+    "category": "departamento",
     "stock": 1,
     "description": "Ubicado en el corazón del centro histórico, este encantador departamento de tres habitaciones combina el encanto histórico con la comodidad moderna. Desde el momento en que entras, te sumerges en la rica historia que rodea este espacio, mientras disfrutas de la elegancia contemporánea. Este hogar en el centro histórico ofrece una experiencia única, donde la tradición se encuentra con la modernidad para crear un ambiente acogedor y lleno de carácter."
   }, {
@@ -67,7 +67,7 @@
     "name": "depto-t4",
     "price": 20000,
     "img": "http://dummyimage.com/250x250.png/5fa2dd/ffffff",
-    "category":"departementos",
+    "category":"departamento",
     "stock": 1,
     "description":"Situado a solo pasos del metro, este espacioso departamento de cuatro habitaciones ofrece una combinación perfecta de comodidad y accesibilidad. Desde el momento en que entras, te envuelve una sensación de amplitud y modernidad. Este hogar cercano al metro se convierte en un lugar ideal para aquellos que buscan la conveniencia del transporte público sin comprometer la comodidad y la amplitud que ofrece un espacio de cuatro habitaciones. Disfruta de un estilo de vida práctico y cómodo en esta residencia única."
   }, {
@@ -75,7 +75,7 @@
     "name": "depto-t5",
     "price": 25000,
     "img": "http://dummyimage.com/250x250.png/dddddd/000000",
-    "category": "departemento",
+    "category": "departamento",
     "stock": 1,
     "description": "Situado en la ribera, este exclusivo y amplio hogar de cinco habitaciones ofrece una experiencia de vida serena y elegante junto al río. Desde el momento en que entras, te sumerges en una atmósfera de tranquilidad, con vistas panorámicas que añaden un toque de naturaleza a tu día a día. Este hogar en la ribera combina la comodidad de un espacio amplio con la belleza serena de su entorno, proporcionando un refugio único que fusiona el lujo con la conexión con la naturaleza."
     }, {
