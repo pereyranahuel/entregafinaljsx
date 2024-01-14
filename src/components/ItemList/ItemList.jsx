@@ -7,7 +7,7 @@ const ItemList = ({productos}) => {
 
   return (
     <section className="container m-auto mt-8">
-      {/* <CategoryNavbar /> */}
+     
 
       <h2 className="text-4xl font-bold">Productos</h2>
       <hr />

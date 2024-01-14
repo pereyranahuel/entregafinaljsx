@@ -1,5 +1,4 @@
-import { useContext, useState } from "react";
-
+import React, { useContext, useState } from "react";
 import { UserContext } from "../context/UserContext";
 
 const LoginScreen = () => {
@@ -51,17 +50,13 @@ const LoginScreen = () => {
           </button>
         </form>
 
-        <button
-          onClick={() => register(values)}
-          className="bg-blue-500 text-white p-2 mt-4"
-        >
+        <button onClick={() => register(values)} className="bg-blue-500 text-white p-2 mt-4">
           Registrar
         </button>
+        
         <br />
-        <button
-          onClick={googleLogin}
-          className="bg-blue-500 text-white p-2 mt-4"
-        >
+
+        <button onClick={googleLogin} className="bg-blue-500 text-white p-2 mt-4">
           Iniciar sesión con Google
         </button>
       </div>
