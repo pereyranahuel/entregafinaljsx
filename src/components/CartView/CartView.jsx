@@ -1,8 +1,9 @@
-import { useContext } from "react";
-import { CartContext } from "../../context/CartContext";
-import { UserContext } from "../../context/UserContext";
-import Boton from "../../ejemplos/Boton";
-import trashIcon from "../../assets/trash.svg";
+// CartView.jsx
+import React, { useContext } from "react";
+import { CartContext } from "../context/CartContext";
+import { UserContext } from "../context/UserContext";
+import Boton from "../renderprops/Boton";
+import trashIcon from "../../assets/trash.png";
 import { Link } from "react-router-dom";
 
 const EmptyCart = () => {
@@ -60,4 +61,4 @@ const CartView = () => {
 };
 
 export default CartView;
-export { EmptyCart }; // Exporta el componente EmptyCart para poder ser utilizado por separado si es necesario
+export { EmptyCart };
