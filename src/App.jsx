@@ -14,20 +14,28 @@ const AppRouter = () => {
   return (
     <BrowserRouter>
       <Navbar />
-      <Routes>
-        {user.logged ? (
-          <>
-            <Route path="/" element={<ItemListContainer />} />
-            <Route path="/productos/:categoryId" element={<ItemListContainer />} />
-            <Route path="/item/:itemId" element={<ItemDetailContainer />} />
-            <Route path="/cart" element={<CartView />} />
-            <Route path="/checkout" element={<Checkout />} />
-            <Route path="*" element={<Navigate to="/" />} />
-          </>
-        ) : (
-          <Route path="/" element={<LoginScreen />} />
-        )}
-      </Routes>
+
+      {user.logged ? (
+        
+        <Routes>
+          <Route path="/" element={<ItemListContainer />} />
+          <Route path="/productos/:categoryId" element={<ItemListContainer />} />
+          <Route path="/item/:itemId" element={<ItemDetailContainer />} />
+          <Route path="/cart" element={<CartView />} />
+          <Route path="/checkout" element={<Checkout />} />
+
+          
+          <Route path="*" element={<Navigate to="/" />} />
+        </Routes>
+      ) : (
+      
+        <Routes>
+          <Route path="/login" element={<LoginScreen />} />
+          
+          
+          <Route path="*" element={<Navigate to="/login" />} />
+        </Routes>
+      )}
     </BrowserRouter>
   );
 };
