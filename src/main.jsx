@@ -5,6 +5,7 @@ import { UserProvider } from './components/context/UserContext.jsx'
 import { CartProvider } from "./components/context/CartContext.jsx";
 import './index.css'
 
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
   <UserProvider>
