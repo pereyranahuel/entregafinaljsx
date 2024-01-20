@@ -8,6 +8,7 @@ import {
   query,
   where,
   getDocs,
+  doc, // Agregamos la importación de doc
 } from "firebase/firestore";
 
 const Checkout = () => {
@@ -26,7 +27,9 @@ const Checkout = () => {
     });
   };
 
-  const processOrder = async () => {
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
     const orden = {
       cliente: values,
       items: cart,
@@ -37,12 +40,14 @@ const Checkout = () => {
     const batch = writeBatch(db);
     const ordersRef = collection(db, "orders");
     const productsRef = collection(db, 'productos');
-    const itemsQuery = query(productsRef, where(documentId(), 'in', cart.map(prod => prod.id)));
-    
+    const productIds = cart.map(prod => prod.id);
+
+    const itemsQuery = query(productsRef, where('id', 'in', productIds));
+
     try {
       const querySnapshot = await getDocs(itemsQuery);
 
-      querySnapshot.docs.forEach(doc => {
+      querySnapshot.forEach(doc => {
         const item = cart.find(prod => prod.id === doc.id);
         const stock = doc.data().stock;
 
@@ -51,29 +56,20 @@ const Checkout = () => {
             stock: stock - item.cantidad
           });
         } else {
-          
+          // Puedes manejar la situación cuando no hay suficiente stock aquí
+          console.log(`No hay suficiente stock para el producto: ${item.id}`);
         }
       });
 
-      batch.commit()
-        .then(() => {
-          addDoc(ordersRef, orden).then((doc) => {
-            setOrderId(doc.id);
-            clearCart();
-          
-          });
+      batch.commit().then(() => {
+        addDoc(ordersRef, orden).then((doc) => {
+          setOrderId(doc.id);
+          clearCart();
         });
+      });
     } catch (error) {
       console.error("Error al procesar la orden:", error.message);
-    
     }
-  };
-
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-
-
-    processOrder();
   };
 
   if (orderId) {

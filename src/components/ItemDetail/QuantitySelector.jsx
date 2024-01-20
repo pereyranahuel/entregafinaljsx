@@ -1,4 +1,4 @@
-import Boton from "../renderprops/Boton";
+//import Boton from "../renderprops/Boton";
 
 const QuantitySelector = ({ cantidad, stock, setCantidad }) => {
   const handleSumar = () => {
@@ -13,7 +13,7 @@ const QuantitySelector = ({ cantidad, stock, setCantidad }) => {
     }
   };
 
-  return (
+ return (
     <div className="flex gap-4 items-center">
       <button
         onClick={handleRestar}
